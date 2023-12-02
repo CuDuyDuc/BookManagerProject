@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Fragment.SplashFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="327dp"
+        android:src="@drawable/library_screen2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="Tự Động Hóa Thư Viện Của Bạn Với Ứng Dụng Tiện Lợi Này" />
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="#707070" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Bạn có thể quản lý thông tin dữ liệu một cách chi tiết. Hệ thống sẽ luôn luôn cập nhật dữ liệu và hiển thị ngay lập tức."
+        android:textColor="@color/dark_blue"/>
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    tools:context=".Fragment.AddAccountFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:src="@drawable/add_account" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="Thêm Tài Khoản"
+        android:textColor="@color/dark_blue"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:boxStrokeColor="#FE8B00"
+        app:hintTextColor="#FE8B00"
+        app:startIconDrawable="@drawable/baseline_person"
+        app:startIconTint="#FE8B00">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtAddMaTT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã Thủ Thư" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:boxStrokeColor="#FE8B00"
+        app:hintTextColor="#FE8B00"
+        app:startIconDrawable="@drawable/baseline_person"
+        app:startIconTint="#FE8B00">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtAddUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ Tên Đăng Nhập" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#FE8B00"
+        app:endIconTint="#FE8B00"
+        app:hintTextColor="#FE8B00"
+        android:layout_marginBottom="10dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#FE8B00"
+        app:startIconDrawable="@drawable/baseline_lock"
+        app:startIconTint="#FE8B00">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtAddPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#FE8B00"
+        app:endIconTint="#FE8B00"
+        app:hintTextColor="#FE8B00"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#FE8B00"
+        app:startIconDrawable="@drawable/baseline_lock"
+        app:startIconTint="#FE8B00">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtAddRePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Lại Mật Khẩu"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddAccount"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Thêm Tài Khoản"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/resource_background_button"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCancelAddAccount"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:background="@drawable/resource_background_button"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

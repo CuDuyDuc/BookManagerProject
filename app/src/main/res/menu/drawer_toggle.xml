@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single" >
+        <item android:id="@+id/PhieuMuon"
+            android:icon="@drawable/baseline_home"
+            android:title="Quản Lý Phiếu Mượn"/>
+        <item android:id="@+id/LoaiSach"
+            android:icon="@drawable/baseline_library_books"
+            android:title="Quản Lý Loại Sách"/>
+        <item android:id="@+id/Sach"
+            android:icon="@drawable/baseline_book"
+            android:title="Quản Lý Sách"/>
+        <item android:id="@+id/ThanhVien"
+            android:icon="@drawable/baseline_customer"
+            android:title="Quản Lý Thành Viên"/>
+
+        <item android:title="Thống Kê">
+            <menu>
+                <item android:id="@+id/sub_Top"
+                    android:icon="@drawable/baseline_top"
+                    android:title="10 Sách Mượn Nhiều Nhất"/>
+
+                <item android:id="@+id/DoanhThu"
+                    android:icon="@drawable/baseline_money"
+                    android:title="Doanh Thu"/>
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Tài Khoản">
+        <menu>
+            <item android:id="@+id/add_Acount"
+                android:icon="@drawable/baseline_person_add"
+                android:title="Thêm Tài Khoản"/>
+            <item android:id="@+id/changePass"
+                android:icon="@drawable/baseline_change_pass"
+                android:title="Đổi Mật Khẩu"/>
+            <item android:id="@+id/logOut"
+                android:icon="@drawable/baseline_logout"
+                android:title="Đăng Xuất"/>
+        </menu>
+    </item>
+
+</menu>

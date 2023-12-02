@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BookManagerProject</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="quen_matkhau">Quên mật khẩu?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

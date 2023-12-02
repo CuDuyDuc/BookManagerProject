@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     ThuThuDAO thuThuDAO;
 
     String test = "test";
+    String test1="oooo";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

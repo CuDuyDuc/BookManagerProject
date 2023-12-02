@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView edUser;
     private NavigationView navigationView;
     ThuThuDAO thuThuDAO;
+
+    String test = "test";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
